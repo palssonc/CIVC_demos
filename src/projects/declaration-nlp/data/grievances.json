@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "embedding_model": "classroom-demo-hand-tuned-semantic-vectors",
+    "date_generated": "2026-08-13",
+    "n_grievances": 27,
+    "dimensions": 6,
+    "note": "Small precomputed vectors for an offline classroom demonstration. Dimensions loosely encode representative government, legal rights, economic administration, military coercion, sovereignty, and settlement."
+  },
+  "grievances": [
+    {
+      "id": 1,
+      "short_label": "Refused assent to laws",
+      "text": "He has refused his Assent to Laws, the most wholesome and necessary for the public good.",
+      "instructor_theme": "Representative self-government",
+      "embedding": [0.94, 0.18, 0.11, 0.02, 0.25, 0.04],
+      "pca": [-2.4, 0.7]
+    },
+    {
+      "id": 2,
+      "short_label": "Blocked urgent laws",
+      "text": "He has forbidden his Governors to pass Laws of immediate and pressing importance, unless suspended in their operation till his Assent should be obtained.",
+      "instructor_theme": "Representative self-government",
+      "embedding": [0.92, 0.16, 0.13, 0.03, 0.22, 0.04],
+      "pca": [-2.25, 0.58]
+    },
+    {
+      "id": 3,
+      "short_label": "Conditioned representation",
+      "text": "He has refused to pass other Laws for the accommodation of large districts of people, unless those people would relinquish the right of Representation in the Legislature.",
+      "instructor_theme": "Representative self-government",
+      "embedding": [0.9, 0.16, 0.08, 0.02, 0.38, 0.05],
+      "pca": [-2.05, 0.95]
+    },
+    {
+      "id": 4,
+      "short_label": "Inconvenient legislatures",
+      "text": "He has called together legislative bodies at places unusual, uncomfortable, and distant from the depository of their public Records.",
+      "instructor_theme": "Representative self-government",
+      "embedding": [0.82, 0.12, 0.2, 0.04, 0.24, 0.06],
+      "pca": [-1.9, 0.38]
+    },
+    {
+      "id": 5,
+      "short_label": "Dissolved assemblies",
+      "text": "He has dissolved Representative Houses repeatedly, for opposing with manly firmness his invasions on the rights of the people.",
+      "instructor_theme": "Representative self-government",
+      "embedding": [0.91, 0.2, 0.07, 0.08, 0.36, 0.03],
+      "pca": [-2.0, 1.1]
+    },
+    {
+      "id": 6,
+      "short_label": "Refused new elections",
+      "text": "He has refused for a long time, after such dissolutions, to cause others to be elected.",
+      "instructor_theme": "Representative self-government",
+      "embedding": [0.88, 0.16, 0.08, 0.04, 0.34, 0.05],
+      "pca": [-1.82, 0.98]
+    },
+    {
+      "id": 7,
+      "short_label": "Restricted migration",
+      "text": "He has endeavoured to prevent the population of these States; obstructing the Laws for Naturalization of Foreigners and raising the conditions of new Appropriations of Lands.",
+      "instructor_theme": "Economic and administrative exploitation",
+      "embedding": [0.22, 0.1, 0.66, 0.04, 0.15, 0.7],
+      "pca": [0.35, -1.85]
+    },
+    {
+      "id": 8,
+      "short_label": "Obstructed justice",
+      "text": "He has obstructed the Administration of Justice, by refusing his Assent to Laws for establishing Judiciary powers.",
+      "instructor_theme": "Legal rights",
+      "embedding": [0.36, 0.84, 0.11, 0.04, 0.22, 0.03],
+      "pca": [-0.68, 1.55]
+    },
+    {
+      "id": 9,
+      "short_label": "Dependent judges",
+      "text": "He has made Judges dependent on his Will alone, for the tenure of their offices, and the amount and payment of their salaries.",
+      "instructor_theme": "Legal rights",
+      "embedding": [0.23, 0.92, 0.16, 0.03, 0.2, 0.02],
+      "pca": [-0.35, 1.85]
+    },
+    {
+      "id": 10,
+      "short_label": "New royal offices",
+      "text": "He has erected a multitude of New Offices, and sent hither swarms of Officers to harass our people, and eat out their substance.",
+      "instructor_theme": "Economic and administrative exploitation",
+      "embedding": [0.16, 0.19, 0.88, 0.04, 0.12, 0.13],
+      "pca": [0.85, -0.95]
+    },
+    {
+      "id": 11,
+      "short_label": "Standing armies",
+      "text": "He has kept among us, in times of peace, Standing Armies without the Consent of our legislatures.",
+      "instructor_theme": "Military coercion and war",
+      "embedding": [0.34, 0.1, 0.08, 0.9, 0.18, 0.03],
+      "pca": [1.58, 1.15]
+    },
+    {
+      "id": 12,
+      "short_label": "Military over civil power",
+      "text": "He has affected to render the Military independent of and superior to the Civil power.",
+      "instructor_theme": "Military coercion and war",
+      "embedding": [0.24, 0.18, 0.05, 0.94, 0.2, 0.02],
+      "pca": [1.78, 1.35]
+    },
+    {
+      "id": 13,
+      "short_label": "Pretended legislation",
+      "text": "He has combined with others to subject us to a jurisdiction foreign to our constitution and unacknowledged by our laws; giving his Assent to their Acts of pretended Legislation.",
+      "instructor_theme": "Representative self-government",
+      "embedding": [0.78, 0.24, 0.12, 0.1, 0.52, 0.02],
+      "pca": [-1.45, 1.25]
+    },
+    {
+      "id": 14,
+      "short_label": "Quartering troops",
+      "text": "For Quartering large bodies of armed troops among us.",
+      "instructor_theme": "Military coercion and war",
+      "embedding": [0.08, 0.08, 0.08, 0.96, 0.08, 0.02],
+      "pca": [2.0, 1.05]
+    },
+    {
+      "id": 15,
+      "short_label": "Shielded soldiers",
+      "text": "For protecting them, by a mock Trial, from punishment for any Murders which they should commit on the Inhabitants of these States.",
+      "instructor_theme": "Legal rights",
+      "embedding": [0.1, 0.78, 0.07, 0.52, 0.12, 0.02],
+      "pca": [0.75, 1.95]
+    },
+    {
+      "id": 16,
+      "short_label": "Cut off trade",
+      "text": "For cutting off our Trade with all parts of the world.",
+      "instructor_theme": "Economic and administrative exploitation",
+      "embedding": [0.08, 0.03, 0.97, 0.04, 0.08, 0.12],
+      "pca": [1.18, -1.42]
+    },
+    {
+      "id": 17,
+      "short_label": "Taxes without consent",
+      "text": "For imposing Taxes on us without our Consent.",
+      "instructor_theme": "Economic and administrative exploitation",
+      "embedding": [0.42, 0.06, 0.84, 0.03, 0.22, 0.03],
+      "pca": [0.45, -1.15]
+    },
+    {
+      "id": 18,
+      "short_label": "No jury trials",
+      "text": "For depriving us in many cases, of the benefits of Trial by Jury.",
+      "instructor_theme": "Legal rights",
+      "embedding": [0.06, 0.98, 0.04, 0.05, 0.08, 0.01],
+      "pca": [-0.12, 2.18]
+    },
+    {
+      "id": 19,
+      "short_label": "Overseas trials",
+      "text": "For transporting us beyond Seas to be tried for pretended offences.",
+      "instructor_theme": "Legal rights",
+      "embedding": [0.07, 0.9, 0.08, 0.26, 0.12, 0.02],
+      "pca": [0.22, 2.02]
+    },
+    {
+      "id": 20,
+      "short_label": "Altered Quebec government",
+      "text": "For abolishing the free System of English Laws in a neighbouring Province, establishing therein an Arbitrary government, and enlarging its Boundaries.",
+      "instructor_theme": "Legal rights",
+      "embedding": [0.32, 0.68, 0.15, 0.08, 0.5, 0.21],
+      "pca": [-0.82, 1.22]
+    },
+    {
+      "id": 21,
+      "short_label": "Altered colonial government",
+      "text": "For taking away our Charters, abolishing our most valuable Laws, and altering fundamentally the Forms of our Governments.",
+      "instructor_theme": "Representative self-government",
+      "embedding": [0.84, 0.28, 0.12, 0.05, 0.46, 0.05],
+      "pca": [-1.62, 1.08]
+    },
+    {
+      "id": 22,
+      "short_label": "Suspended legislatures",
+      "text": "For suspending our own Legislatures, and declaring themselves invested with power to legislate for us in all cases whatsoever.",
+      "instructor_theme": "Representative self-government",
+      "embedding": [0.88, 0.22, 0.1, 0.04, 0.48, 0.02],
+      "pca": [-1.85, 1.32]
+    },
+    {
+      "id": 23,
+      "short_label": "Declared outside protection",
+      "text": "He has abdicated Government here, by declaring us out of his Protection and waging War against us.",
+      "instructor_theme": "Military coercion and war",
+      "embedding": [0.22, 0.08, 0.05, 0.82, 0.58, 0.02],
+      "pca": [1.25, 1.75]
+    },
+    {
+      "id": 24,
+      "short_label": "Attacked towns",
+      "text": "He has plundered our seas, ravaged our Coasts, burnt our towns, and destroyed the lives of our people.",
+      "instructor_theme": "Military coercion and war",
+      "embedding": [0.05, 0.04, 0.05, 0.98, 0.18, 0.01],
+      "pca": [2.18, 1.62]
+    },
+    {
+      "id": 25,
+      "short_label": "Foreign mercenaries",
+      "text": "He is at this time transporting large Armies of foreign Mercenaries to compleat the works of death, desolation and tyranny.",
+      "instructor_theme": "Military coercion and war",
+      "embedding": [0.04, 0.05, 0.04, 0.96, 0.26, 0.03],
+      "pca": [2.05, 1.88]
+    },
+    {
+      "id": 26,
+      "short_label": "Forced to fight Americans",
+      "text": "He has constrained our fellow Citizens taken Captive on the high Seas to bear Arms against their Country.",
+      "instructor_theme": "Military coercion and war",
+      "embedding": [0.08, 0.08, 0.08, 0.88, 0.34, 0.08],
+      "pca": [1.7, 1.98]
+    },
+    {
+      "id": 27,
+      "short_label": "Insurrection and frontier attacks",
+      "text": "He has excited domestic insurrections amongst us, and has endeavoured to bring on the inhabitants of our frontiers the merciless Indian Savages.",
+      "instructor_theme": "Military coercion and war",
+      "embedding": [0.08, 0.05, 0.1, 0.84, 0.18, 0.42],
+      "pca": [1.52, 0.78]
+    }
+  ],
+  "cluster_assignments": {
+    "2": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2],
+    "3": [1, 1, 1, 1, 1, 1, 3, 2, 2, 3, 1, 1, 1, 1, 2, 3, 3, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1],
+    "4": [1, 1, 1, 1, 1, 1, 3, 2, 2, 3, 4, 4, 1, 4, 2, 3, 3, 2, 2, 2, 1, 1, 4, 4, 4, 4, 4],
+    "5": [1, 1, 1, 1, 1, 1, 3, 2, 2, 3, 4, 4, 1, 4, 2, 3, 3, 2, 2, 5, 1, 1, 4, 4, 4, 4, 4],
+    "6": [1, 1, 1, 1, 1, 1, 5, 2, 2, 3, 4, 4, 1, 4, 2, 3, 3, 2, 2, 6, 1, 1, 4, 4, 4, 4, 4],
+    "7": [1, 1, 1, 1, 1, 1, 5, 2, 2, 3, 4, 4, 7, 4, 2, 3, 3, 2, 2, 6, 7, 7, 4, 4, 4, 4, 4],
+    "8": [1, 1, 8, 1, 8, 8, 5, 2, 2, 3, 4, 4, 7, 4, 2, 3, 3, 2, 2, 6, 7, 7, 4, 4, 4, 4, 4]
+  }
+}
